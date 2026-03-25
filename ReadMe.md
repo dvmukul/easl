@@ -50,7 +50,7 @@ Execute code:
 ## Grammar
 
 
-EASL is inspired by the *scheme* language and covers almost all teh scheme base features. 
+EASL is inspired by the *scheme* language and covers almost all the scheme base features. 
 
 
 ### Null
