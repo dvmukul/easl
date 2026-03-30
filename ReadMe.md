@@ -28,7 +28,7 @@ Execute code:
     const code = '  {let lst [1 2 3 4]}
                     (list.length lst)    `;
                     
-    const res = eas.evaluate(code);
+    const res = easl.evaluate(code);
     
     console.log(res);
 
@@ -42,7 +42,7 @@ Execute code:
         const code = '  {let lst [1 2 3 4]}
                         (list.length lst)   `;
                         
-        const res = eas.evaluate(code);
+        const res = easl.evaluate(code);
         console.log(res);
     </script>
 
@@ -60,7 +60,7 @@ Null can be represented with the keyword `null`.
 
 ### Boolean constant
 
-Faulty values are:
+Falsy values are:
 
      false - reserved keyword,
      null  - reserved keyword,
@@ -74,7 +74,7 @@ Truthy values are:
      true     - reserved keyword,
      [1 2 3]  - a non empty list,
      "hello"  - a non empty string,
-     42       - a number. As well as a rela number like 3.14
+     42       - a number. As well as a real number like 3.14
 
 
 ### Value types
